@@ -1,0 +1,22 @@
+version: '3'
+services:
+  db:
+    image: mysql:5.7
+    # ports:
+    #   - 3306:3306
+    environment:
+      - MYSQL_ROOT_PASSWORD=dkagh1.
+      - MYSQL_DATABASE=wp
+      - MYSQL_USER=wp
+      - MYSQL_PASSWORD=wp
+    volumes:
+      - ./mysql_data:/var/lib/mysql
+  wordpress:
+    image: wordpress:latest
+    ports:
+      - 50010:80
+    environment:
+      - WORDPRESS_DB_HOST=db:3306
+      - WORDPRESS_DB_USER=wp
+      - WORDPRESS_DB_PASSWORD=wp
+      - WORDPRESS_DB_NAME=wp

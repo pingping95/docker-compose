@@ -1,0 +1,21 @@
+version: '3'
+
+services:
+  frontend:
+    image: subicura/guestbook-frontend:latest
+    ports:
+      - 60000:5000
+    environment:
+      - PORT=5000
+      - GUESTBOOK_API_ADDR=backend:8000
+
+  backend:
+    image: subicura/guestbook-backend:latest
+    environment:
+      - PORT=8000
+      - GUESTBOOK_DB_ADDR=mongodb:27017
+
+  mongodb:
+    image: mongo:4
+    volumes:
+      - ./mongo_data:/data/db

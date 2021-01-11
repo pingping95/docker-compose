@@ -1,0 +1,91 @@
+# Logfile created on 2021-01-11 08:25:49 +0000 by logger.rb/v1.4.2
+2021-01-11T08:25:49.142Z: ActiveRecord connection established
+2021-01-11T08:25:50.205Z: Checking state of dynamic postgres partitions
+2021-01-11T08:25:50.206Z: Failed to create partition(s) for audit_events_part_5fc467ac26: PG::ConnectionBad: could not connect to server: Permission denied
+	Is the server running locally and accepting
+	connections on Unix domain socket "/var/opt/gitlab/postgresql/.s.PGSQL.5432"?
+
+2021-01-11T08:26:12.706Z: ActiveRecord connection established
+2021-01-11T08:26:13.266Z: Checking state of dynamic postgres partitions
+2021-01-11T08:26:13.267Z: Failed to create partition(s) for audit_events_part_5fc467ac26: PG::ConnectionBad: could not connect to server: Permission denied
+	Is the server running locally and accepting
+	connections on Unix domain socket "/var/opt/gitlab/postgresql/.s.PGSQL.5432"?
+
+2021-01-11T08:27:16.913Z: ActiveRecord connection established
+2021-01-11T08:27:17.756Z: Checking state of dynamic postgres partitions
+2021-01-11T08:27:17.757Z: Failed to create partition(s) for audit_events_part_5fc467ac26: PG::ConnectionBad: could not connect to server: Permission denied
+	Is the server running locally and accepting
+	connections on Unix domain socket "/var/opt/gitlab/postgresql/.s.PGSQL.5432"?
+
+2021-01-11T08:28:14.290Z: ActiveRecord connection established
+2021-01-11T08:28:14.929Z: Checking state of dynamic postgres partitions
+2021-01-11T08:28:14.931Z: Failed to create partition(s) for audit_events_part_5fc467ac26: PG::ConnectionBad: could not connect to server: Permission denied
+	Is the server running locally and accepting
+	connections on Unix domain socket "/var/opt/gitlab/postgresql/.s.PGSQL.5432"?
+
+2021-01-11T08:29:18.107Z: ActiveRecord connection established
+2021-01-11T08:29:18.944Z: Checking state of dynamic postgres partitions
+2021-01-11T08:29:18.945Z: Failed to create partition(s) for audit_events_part_5fc467ac26: PG::ConnectionBad: could not connect to server: Permission denied
+	Is the server running locally and accepting
+	connections on Unix domain socket "/var/opt/gitlab/postgresql/.s.PGSQL.5432"?
+
+2021-01-11T08:30:16.365Z: ActiveRecord connection established
+2021-01-11T08:30:17.200Z: Checking state of dynamic postgres partitions
+2021-01-11T08:30:17.201Z: Failed to create partition(s) for audit_events_part_5fc467ac26: PG::ConnectionBad: could not connect to server: Permission denied
+	Is the server running locally and accepting
+	connections on Unix domain socket "/var/opt/gitlab/postgresql/.s.PGSQL.5432"?
+
+2021-01-11T08:31:44.852Z: ActiveRecord connection established
+2021-01-11T08:31:45.975Z: Checking state of dynamic postgres partitions
+2021-01-11T08:31:45.975Z: Failed to create partition(s) for audit_events_part_5fc467ac26: PG::ConnectionBad: could not connect to server: Permission denied
+	Is the server running locally and accepting
+	connections on Unix domain socket "/var/opt/gitlab/postgresql/.s.PGSQL.5432"?
+
+2021-01-11T08:32:47.850Z: ActiveRecord connection established
+2021-01-11T08:32:48.683Z: Checking state of dynamic postgres partitions
+2021-01-11T08:32:48.684Z: Failed to create partition(s) for audit_events_part_5fc467ac26: PG::ConnectionBad: could not connect to server: Permission denied
+	Is the server running locally and accepting
+	connections on Unix domain socket "/var/opt/gitlab/postgresql/.s.PGSQL.5432"?
+
+2021-01-11T08:33:51.301Z: ActiveRecord connection established
+2021-01-11T08:33:52.157Z: Checking state of dynamic postgres partitions
+2021-01-11T08:33:52.160Z: Failed to create partition(s) for audit_events_part_5fc467ac26: PG::ConnectionBad: could not connect to server: Permission denied
+	Is the server running locally and accepting
+	connections on Unix domain socket "/var/opt/gitlab/postgresql/.s.PGSQL.5432"?
+
+2021-01-11T08:34:50.319Z: ActiveRecord connection established
+2021-01-11T08:34:51.162Z: Checking state of dynamic postgres partitions
+2021-01-11T08:34:51.163Z: Failed to create partition(s) for audit_events_part_5fc467ac26: PG::ConnectionBad: could not connect to server: Permission denied
+	Is the server running locally and accepting
+	connections on Unix domain socket "/var/opt/gitlab/postgresql/.s.PGSQL.5432"?
+
+2021-01-11T08:35:51.949Z: ActiveRecord connection established
+2021-01-11T08:35:52.503Z: Checking state of dynamic postgres partitions
+2021-01-11T08:35:52.504Z: Failed to create partition(s) for audit_events_part_5fc467ac26: PG::ConnectionBad: could not connect to server: Permission denied
+	Is the server running locally and accepting
+	connections on Unix domain socket "/var/opt/gitlab/postgresql/.s.PGSQL.5432"?
+
+2021-01-11T08:36:51.137Z: ActiveRecord connection established
+2021-01-11T08:36:51.973Z: Checking state of dynamic postgres partitions
+2021-01-11T08:36:51.974Z: Failed to create partition(s) for audit_events_part_5fc467ac26: PG::ConnectionBad: could not connect to server: Permission denied
+	Is the server running locally and accepting
+	connections on Unix domain socket "/var/opt/gitlab/postgresql/.s.PGSQL.5432"?
+
+2021-01-11T08:37:55.053Z: ActiveRecord connection established
+2021-01-11T08:37:55.901Z: Checking state of dynamic postgres partitions
+2021-01-11T08:37:55.902Z: Failed to create partition(s) for audit_events_part_5fc467ac26: PG::ConnectionBad: could not connect to server: Permission denied
+	Is the server running locally and accepting
+	connections on Unix domain socket "/var/opt/gitlab/postgresql/.s.PGSQL.5432"?
+
+2021-01-11T08:38:58.894Z: ActiveRecord connection established
+2021-01-11T08:38:59.746Z: Checking state of dynamic postgres partitions
+2021-01-11T08:38:59.747Z: Failed to create partition(s) for audit_events_part_5fc467ac26: PG::ConnectionBad: could not connect to server: Permission denied
+	Is the server running locally and accepting
+	connections on Unix domain socket "/var/opt/gitlab/postgresql/.s.PGSQL.5432"?
+
+2021-01-11T08:40:00.290Z: ActiveRecord connection established
+2021-01-11T08:40:01.138Z: Checking state of dynamic postgres partitions
+2021-01-11T08:40:01.139Z: Failed to create partition(s) for audit_events_part_5fc467ac26: PG::ConnectionBad: could not connect to server: Permission denied
+	Is the server running locally and accepting
+	connections on Unix domain socket "/var/opt/gitlab/postgresql/.s.PGSQL.5432"?
+

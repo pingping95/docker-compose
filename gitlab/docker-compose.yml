@@ -1,0 +1,16 @@
+version: '3'
+
+services:
+  gitlab:
+    image: gitlab/gitlab-ee
+    ports:
+      - '50010:80'
+    restart: always
+    hostname: 3.36.115.79
+    environment:
+      GITLAB_OMNIBUS_CONFIG: |
+        external_url 'http://3.36.115.79'
+    volumes:
+      - ./gitlab_data:/etc/gitlab
+      - ./gitlab_data:/var/log/gitlab
+      - ./gitlab_data:/var/opt/gitlab
